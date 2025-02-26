@@ -1,10 +1,30 @@
+<link rel="stylesheet" href="styles.css">
+
 <nav>
   <ul>
     <li><a routerLink="/home">Home</a></li>
     <li><a routerLink="/contact">Contact</a></li>
     <li><a routerLink="/about">About</a></li>
-    <li><a routerLink="/Product">Product</a>
+    <li><a routerLink="/product">Product</a></li>
   </ul>
 </nav>
+
+<div class="card" style="width: 18rem; margin-left: 10px; margin-top: 10px;">
+  <!-- <div class="card-body">
+    <h5 class="card-title">Python</h5>
+    <p class="card-text">Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation.</p>
+    <a href="https://www.python.org" class="btn btn-primary" target="_blank">Learn More</a>
+  </div> -->
+  <app-couress>
+    <h5 class="card-title">JavaScript</h5>
+    <a href="https://www.javascript.com" class="btn btn-primary" target="_blank">Learn More</a>
+  </app-couress>
+</div>
+<div class="card" style="width: 18rem; margin-left: 10px; margin-top: 10px;">
+  <app-couress>
+    <h5 class="card-title">Python</h5>
+    <a href="https://www.python.com" class="btn btn-primary" target="_blank">Learn More</a>
+  </app-couress>
+</div>
 
 <router-outlet></router-outlet>
